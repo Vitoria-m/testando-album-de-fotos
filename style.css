@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#album {
+    background-color: white;
+    width: 1500px;
+    margin: 50px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+li {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border: 3px solid #d3d3d3;
+    background-color:honeydew;
+    box-shadow: 3px 3px 4px #9C9C9C;
+    transition: all 0.3s ease-in;
+}
+
+
+#serie1 {
+    background: url("the-office.jpg");
+    background-repeat: none;
+    background-position: 42% 25%;
+    position: relative;
+   
+}
+
+#serie2 {
+    background: url("fleabag.jpg");
+    background-position: 50% 40%;
+}
+
+#serie3 {
+    background: url("chewing-gum.jpg");
+    background-position: 40% 0%;
+}
+
+#serie4 {
+    background: url("derry-girls.jpg");
+    background-position: 55% 20%;
+}
+
+#serie5 {
+    background: url("big-little-lies.jpeg");
+    background-position: 30% 35%;
+}
+
+#serie6 {
+    background: url("br-ba.jpg");
+    background-position: 40% 45%;
+}
+
+span {
+    opacity: 0.1;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0,0,0,.3);
+    line-height: 580px;
+}
+
+li:hover span {
+    opacity: 1;
+    cursor: pointer;  
+}
+
+li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
